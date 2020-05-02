@@ -1,0 +1,724 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+ }
+ body{
+     font-family: 'Dosis', sans-serif;
+     width: 100%;
+     /* margin: 0;
+    padding: 0; */
+    /* font-family: "montserrat",sans-serif; */
+ }
+ h1{
+     font-size: 3em;
+ }
+ h5{
+     font-size: 2em;
+ }
+ h3{
+     font-size: 1em;
+ }
+            /* ICONS & BUTTONS SECTION */
+.menu{
+    /* padding:5px 5px 5px 5px; */
+    background-color: #316DC3;
+    /* padding-bottom: 90px; */
+    padding-top: 7px;
+    
+    
+}
+/* Fixed menu */
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+
+.menu ul li{
+    
+    list-style-type: none;
+    list-style: none;
+    display: inline;
+    padding-left: 5px;
+    margin-left: 10px;
+    
+ 
+   
+}
+.menu ul li i{
+    text-decoration: none;
+    line-height: 30px;
+    filter: invert(5);
+    cursor: pointer;
+    /* padding: -10px 0px 0px -15px; */
+    position: relative;
+    /* top: 0px; */
+    bottom: 1px;
+   
+ }
+ ul{
+     padding-left: 100px;
+ }
+
+.para{
+    text-align: center;
+    display: inline-block;
+    padding-left: 150px;
+    font-size: 15px;
+    color: white;
+    padding-top: 10px;
+    margin-bottom: 9px;
+    position: relative;
+    bottom: 4px;
+    
+    
+}
+
+.btn1{
+    
+    background-color:#f7f8fa;
+    border: 2px solid black;
+    outline:1px solid black;
+    padding: 4px 12px 5px 8px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 12px;
+    color: rgba(45, 58, 45, 0.678);
+    margin:0px 2px 2px 1px;
+    border: none;
+    
+}
+        
+.btns{
+   
+    position: absolute;
+    right: 100px;
+    top: 12px;
+    border-radius: 5px;
+   
+ 
+}
+i:hover{
+    background-color: black;
+    color: white;
+    
+}
+
+/* Header Section */
+.navbar{
+    width: 100%;
+    background-color:  white;
+    height: 55px;
+   
+}
+.navbar ul{
+    text-align: center;
+    /* text-align: right; */
+    padding-left: 440px;
+    
+}
+.navbar ul li{
+    list-style: none;
+    display: inline;
+    
+    
+}
+.navbar ul li a{
+   text-decoration: none;
+   display: inline-block;
+   line-height: 30px;
+   padding: 0px 15px 0px 15px;
+   /* text-align: center; */
+   padding-top: 5px;
+   
+   /* margin-left: 50px; */
+   color:rgb(51, 51, 51);
+   font-family: sans-serif;
+   font-weight: 700;
+   
+
+   
+}
+ li a{
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    top: -9px;
+    border-radius: 20px;
+    left: 100px;
+    /* background-color: #f7f8fa; */
+}
+.logo{
+    max-height: 50px;
+    padding-left: 100px;
+    /* padding-top: 10px; */
+    align-items: center;
+    /* padding-top: 5px; */
+    position: absolute;
+    /* top: 0px */
+    bottom: 10px;
+}
+a:hover{
+
+    background-color: #316DC3;
+    color:white !important ;
+    
+}
+.hme:link{
+    background-color: #316DC3;
+    color: white;
+}
+.hme{
+     color: white !important;
+}
+body, html {
+  height: 90%;
+  margin: 0;
+}
+
+.bg {
+  
+  background-image: url("https://www.saylaniwelfare.com/public_html/images/saylani/RotiBank_Slider.jpg");
+  /* Full height */
+   height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+} 
+.headline{
+    padding:6px 10px 6px 10px;
+    text-align: center;
+    background-color:#316DC3;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+/* About Section */
+.about h2{
+    color: #316DC3;
+    padding-top: 30px;
+    letter-spacing: 2px;
+    font-size: 32px;
+    text-transform: uppercase;
+    background-color: #f7f8fa;
+    font-family: 'Arvo', serif;
+    font-weight: 900;
+}
+h2 span{
+    color: #427900;
+    font-family: 'Arvo', serif;
+    
+
+
+    
+}
+.about{
+
+    text-align: center;
+    background-color: #f7f8fa;
+    padding-bottom: 55%;
+    height: auto;
+}
+.icon{
+    /* height: 100%; */
+    position: absolute;
+    top: 770px;
+    left: 660px;
+    background-color:#f7f8fa !important;
+}
+.icon::before{
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 36px;
+    left: 55px;
+    background-color: #427900;
+
+}
+.icon::after{
+    content: "";
+    height: 2px;
+    /* left: 0px; */
+    right: 56px;
+    position: absolute;
+    top: 30px;
+    width: 36px;
+    background-color: #427900;
+}
+.text {
+    /* padding-bottom: 500px; */
+    line-height: 2;
+    position: absolute;
+    top:  820px;
+    /* text-align: center; */
+    padding: 10px 240px 0px 240px;
+    font-family: sans-serif;
+    
+} 
+.about1{
+    color: #666666;
+    text-align: justify;
+    /* padding-top: 5px; */
+    padding-bottom: 100px;
+  
+}
+div.text {
+    width:100%;
+    overflow:hidden;
+  }
+  div.text p {
+    animation: slide-left 2s;
+  }
+  
+  @keyframes slide-left {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+/* Mission Completed */
+#parent-box{
+    background:#2755e9;
+    width:100%;
+    padding: 0px 20px;
+    /* padding-bottom: 90px; */
+    margin-bottom: 20px;
+    opacity: 8;
+  }
+  img[alt=dastrakhan]{
+    width:40px;
+    padding-top: 50px;
+  }
+  .child-box{
+    height: 300px;
+    background:#2755e9;
+    text-align:center;
+    display: inline-block;
+    /* flex-direction: column; */
+   
+    padding: 10px 0px 10px 10px;
+  }
+  .dastrakhan-description{
+    width: 300px;
+    padding: 10px;
+    color: white;
+  }
+  .dastrakhan-description span{
+      font-size: 20px;
+      font-weight: 500;
+      color: #00ff00;
+  }
+#services{
+  position: relative;
+  /* bottom:30px; */
+  top: -15px;
+  padding-bottom: 20px;
+  background-color: #f7f8fa !important;
+ 
+  
+}
+.row{
+    text-align: center;
+    /* font-family: 'Arvo', serif; */
+    /* background-color: black; */
+    position: relative;
+    top: 50px;
+    
+    
+}
+.online-sadqah-box{
+    /* display: inline-block; */
+  
+    width: 350px;
+    height: 170px;
+    margin-top: 15px;
+    /* box-shadow:1px 1px 2px 2px rgba(45, 58, 45, 0.5) , 1px 1px 5px 2px rgba(45, 58, 45, 0.5); */
+    box-shadow: 0px 14px 25px 0px rgba(0, 0, 0, 0.16);
+    margin-bottom: 70px;
+    padding-top: 40px;
+}
+
+.saylani-box{
+    position: relative;
+    top: 50%;
+    transform: translate( 0 ,-50%);
+    padding-bottom: 10px;
+    
+}
+/* section{
+    text-align: center; */
+    /* display: inline-block; */
+    /* align-items: center;
+    flex-direction: row;
+    justify-content: center; 
+    float: left;
+
+/* } */
+
+#services .h3{
+    display: inline;
+    /* background-color: khaki; */
+    text-align: center;
+    padding-left: 25%;
+    position: relative;
+    bottom: 20px;
+    letter-spacing: -1px;
+    font-family: 'Arvo', serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: #316DC3;
+    text-transform: uppercase;
+    
+}
+#services span{
+    font-family: 'Arvo', serif;
+}
+.title-icon{
+    position: relative;
+    left: 110px;
+    /* top:3px; */
+    bottom: 10px;
+}
+.title-icon::before{
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 36px;
+    left: 390px;
+    background-color: #427900;
+
+}
+.title-icon::after{
+    content: "";
+    height: 2px;
+    /* left: 0px; */
+    right: 390px;
+    position: absolute;
+    top: 30px;
+    width: 36px;
+    background-color: #427900;
+}
+
+
+.team{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* background-color: hsl(0, 0, 95%); */
+    width: 100%;
+    text-align: center;
+    
+}
+.team-wrapper{
+    width: 90%;
+    padding-top: 50px;
+    margin: auto;
+}
+.col-team{
+    width: 25%;
+    float: left;
+    padding: 10px 30px 10px 30px;
+    background-color: white;
+}
+.col-team img{
+    width: 30px;
+    max-width: 100%;
+    padding-bottom: 5px;
+}
+.tcol h3{
+    font-size: 16px;
+    color: #316DC3;
+    font-family: 'Arvo', serif;
+    font-weight: 600;
+    
+}
+.h{
+    color: #316DC3;
+    text-align: left;
+    padding-left: 70px;
+    font-family: 'Arvo', serif;
+    font-weight: 600;
+    
+    
+
+}
+.h::before{
+    content: "";
+    height: 2px;
+    display: inline-block;
+    
+    position: absolute;
+    right: 30px;
+    top: 2620px;
+    width: 56px;
+    left: 72px;
+    background-color: #427900;
+
+}
+.tcol{
+    max-width: 200px;
+    max-height: 170px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.05);
+    background-color:#f7f8fa;
+}
+.team-wrapper::after{
+    clear: both;
+    content: "";
+    display: table ;
+}
+.contact{
+    width: 100%;
+    background-color: hsl(0, 0%, 95%);
+}
+.cta{
+    background-color: yellow;
+    width: 100%;
+    padding: 30px 5px 30px 5px;
+    text-align: center;
+}
+.cta-col{
+    width: 33.33%;
+    float: left;
+}
+.cta-col h3{
+    display: inline;
+
+}
+.cta::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Upcoming */
+.events h3{
+    padding-left: 75px;
+    font-size: 35px;
+    color: #316DC3;
+    
+}
+.events p{
+    padding: 30px 60px 20px 170px;
+    background-image: url('https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-041.jpg');
+    width: 100%;
+    background-attachment: fixed;
+}
+.events span{
+    color: #316DC3;
+    cursor: pointer;
+}
+/* image gallery */
+.gallery h2{
+    text-align: center;
+    padding-top: 20px;
+    color: #316DC3;
+    font-family: 'Arvo', serif;
+    font-weight: 600;
+    
+}
+.gallery span{
+    color: #427900;
+    
+}
+.gallery{
+    padding-bottom: 40px;
+}
+.gallery1{
+        position: relative;
+        left: 110px;
+        /* top:3px; */
+        bottom: 10px;
+        display: inline;
+        
+    }
+    .gallery1::before{
+        content: "";
+        height: 2px;
+        position:absolute;
+        /* right: 30px; */
+        top: 40px;
+        width: 30px;
+        left: 500px;
+        background-color: #427900;
+        
+    
+    }
+    .gallery1::after{
+        content: "";
+        height: 2px;
+        left: 600px;
+        /* right: 390px; */
+        position: absolute;
+        top: 40px;
+        width: 30px;
+        background-color: #427900;
+    
+}
+.gallery1 img{
+   padding-left: 40.50%;
+   position: relative;
+   top: 18px;
+}
+
+
+
+.images-saylani{
+    display: inline-block;
+    position:relative;
+    left: 10%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    text-align:center;
+    padding-top: 30px;
+    
+}
+.images-saylani img{
+    
+    vertical-align: center;
+}
+.saylani1{
+    padding-bottom: 12%;
+}
+
+/* Footer */
+.footer{
+    background-color:#1b181f;
+    color: #eee;
+    width: 100%;
+    padding-top: 50px;
+    /* line-height: 2; */
+}
+.footer::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+.footer h2{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.footer-col address{
+    width: 33.33%;
+    float: left;
+    padding: 5px 10px 5px 10px;
+    color: #bbbbbb;
+}
+.footer-col address{
+    padding-top: 80px;
+    position: relative;
+    /* top: 10px; */
+    bottom: 80px;
+    left: 150px;
+   
+    
+}
+/* social media icons */
+.s-media {
+    display: inline-block;
+    /* text-decoration: none; */
+    list-style: none;
+    position: relative;
+    right:380px;
+    /* bottom: 6s00px; */
+    color: #bbbbbb;
+    top: 50px;
+    line-height: 1.7;
+    
+}
+.s-media i{
+    color: green;
+}
+.footer span{
+    display: block;
+    background-color: #316DD9;
+    line-height: 2.5;
+    text-align: center;
+    font-size: 13px;
+}
+.link p{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left:  310px;
+    bottom: 257px;
+    color: white;
+    font-weight: 600;
+}
+.link::before{
+    content: "";
+    height: 2px;
+    display: inline-block;
+    
+    position: absolute;
+    right: 5px;
+    /* top: 2620px; */
+    width: 100px;
+    left: 479px;
+    bottom: 340px;
+    
+
+    background-color: #427900;
+
+}
+.link::after{
+    content: "";
+    height: 2px;
+    left: 535px;
+   
+    position: absolute;
+    /* top: 600px; */
+    bottom: 340px;
+    width: 360px;
+    background-color: #444;
+}
+.connect p{
+    /* display:block; */
+    text-align: left;
+    position: relative;
+  left: 800px;
+  bottom: 300px;
+  color: white;
+  font-weight: 600;
+}
+.connect ul li{
+    display: inline-block;
+    /* text-decoration: none; */
+    list-style: none;
+    position: relative;
+    left: 700px;
+    /* justify-content: center; */
+    bottom: 300px;
+    
+}
+.connect ul li i{
+    color: white;
+   
+}
+.connect ul li i:hover{
+    color:#427900 ;
+}
+/* Media Queries */
+@media only screen and (min-width : 320px) {
+    /* .about1 {
+        font-size: 18px;
+        text-align: center;
+        padding-bottom: 510px;
+    } */
+}
